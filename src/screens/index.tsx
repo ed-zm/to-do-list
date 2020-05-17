@@ -8,6 +8,7 @@ const Home = () => {
         { state }
         <br />
         Home Page
+        TEST TEXT
         <br />
         <input value = { state } onChange = { e => setState(e.target.value) } />
     </div>
