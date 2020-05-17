@@ -1,0 +1,15 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+  grid-template-rows: 1fr;
+  list-style: none;
+  &-item {
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    width: 100%;
+    &:hover {
+      background-color:khaki;
+    }
+  }
+}
